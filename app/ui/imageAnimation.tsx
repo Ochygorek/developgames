@@ -32,7 +32,7 @@ function ImageAnimation() {
               alt=''
               width={600}
               height={327}
-              className=''
+              className='group-hover:blur--[2px] duration-150'
             />
           </div>
           <div className='flex items-center justify-center absolute z-10 top-[1.5rem] w-[91.67%]'>
@@ -41,7 +41,7 @@ function ImageAnimation() {
               alt=''
               width={600}
               height={327}
-              className='brightness-50'
+              className='brightness-50 group-hover:brightness-[.25] group-hover:blur-[2px] duration-150'
             />
           </div>
           <div className='flex items-center justify-center absolute z-0 top-0 w-[83.33%]'>
@@ -50,13 +50,13 @@ function ImageAnimation() {
               alt=''
               width={600}
               height={327}
-              className='brightness-[.25]'
+              className='brightness-[.25] group-hover:blur-[2px] duration-150'
             />
           </div>
         </Link>
-        <Link href={'https://gopiratesoftware.com/games/'} target='_blank' className='group-hover:opacity-100 opacity-0 w-full absolute top-[3rem] left-0 bottom-[-3rem] bg-black/40 z-[21] rounded-[0.75rem] flex items-center justify-center' >
+        <Link href={'https://gopiratesoftware.com/games/'} target='_blank' className='group-hover:opacity-100 opacity-0 w-full absolute top-[3rem] left-0 bottom-[-3rem] bg-black/40 z-[21] rounded-[0.75rem] flex items-center justify-center duration-150' >
           <div className='px-3 gap-2 py-1 flex items-center justify-center text-xs text-ea font-light bg-neutral-600 rounded-full duration-150 hover:bg-neutral-500 hover:text-white'>
-            Games We Made
+            Games by Pirate Software
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3">
               <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />

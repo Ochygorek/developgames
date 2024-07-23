@@ -6,7 +6,12 @@ import NextPrv from '@/app/ui/game-dev/nextPrev'
 import Paragraph from '@/app/ui/game-dev/paragraph'
 import ParagraphImage from '@/app/ui/game-dev/paragraphImage'
 import SubHeading from '@/app/ui/game-dev/subHeading'
+import { Metadata } from 'next'
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: 'Financing',
+}
 
 function Financing() {
   return (

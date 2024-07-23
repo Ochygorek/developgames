@@ -3,7 +3,12 @@ import Heading from '@/app/ui/game-dev/heading'
 import InlineLink from '@/app/ui/game-dev/inlineLink'
 import NextPrv from '@/app/ui/game-dev/nextPrev'
 import Paragraph from '@/app/ui/game-dev/paragraph'
+import { Metadata } from 'next'
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: 'Who Are You?',
+}
 
 function WhoAreYou() {
   return (

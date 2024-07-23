@@ -5,6 +5,11 @@ import DisplayImage from '../ui/game-dev/displayImage'
 import Paragraph from '../ui/game-dev/paragraph'
 import SubHeading from '../ui/game-dev/subHeading'
 import InlineLink from '../ui/game-dev/inlineLink'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Develop games overview',
+}
 
 function GameDev() {
   return (

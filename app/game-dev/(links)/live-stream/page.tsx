@@ -4,7 +4,12 @@ import InlineLink from '@/app/ui/game-dev/inlineLink'
 import NextPrv from '@/app/ui/game-dev/nextPrev'
 import Paragraph from '@/app/ui/game-dev/paragraph'
 import TwitchFrame from '@/app/ui/twitchFrame'
+import { Metadata } from 'next'
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: 'Live Streaming',
+}
 
 function LiveStream() {
   return (
