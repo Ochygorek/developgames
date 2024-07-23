@@ -15,7 +15,7 @@ function LiveStream() {
   return (
     <article>
       <Heading>Live Twitch Dev Stream</Heading>
-      <Paragraph>For the stream schedule, please refer to <InlineLink href='https://www.twitch.tv/piratesoftware/schedule'>this schedule</InlineLink> from Thor's official Twitch page.</Paragraph>
+      <Paragraph>For the stream schedule, please refer to <InlineLink href='https://www.twitch.tv/piratesoftware/schedule'>this schedule</InlineLink> from Thor&apos;s official Twitch page.</Paragraph>
       <div className='w-full h-8'></div>
       <TwitchFrame />
       <NextPrv 

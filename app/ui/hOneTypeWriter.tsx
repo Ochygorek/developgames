@@ -20,7 +20,7 @@ function HOneTypeWriter() {
   
   useEffect(() => {
     slideControl.start('visible')
-  }, [])
+  })
 
   return (
     <motion.h1 className="fa mb-4 sm:mb-12 md:mb-0 text-5xl text-fa md:text-7xl lg:text-[5.75rem] font-bold font-me-head leading-none w-full relative"

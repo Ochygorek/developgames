@@ -20,7 +20,7 @@ function Sub() {
       initial="initital"
       animate="animate"
     >
-      Do it, you won't regret it.
+      Do it, you won&apos;t regret it.
     </motion.p>
 
   )

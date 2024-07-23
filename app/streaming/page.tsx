@@ -20,7 +20,7 @@ function Streaming() {
       <SubHeading id='twitch'>Twitch</SubHeading>
       <InlineImage src='/17 twitch.png' alt='Twitch thumbnail.' href='https://www.twitch.tv/piratesoftware' content='Twitch' />
       <ParagraphImage>
-        <InlineLink href='https://www.twitch.tv/piratesoftware'>Twitch</InlineLink> is currently the best live streaming site for the majority of content types online. It's got great monetization options but the splits are also rather horrible at the same time. They don't allow adult content but a lot of creators skirt that line anyway. Just follow the TOS and you'll be just fine.
+        <InlineLink href='https://www.twitch.tv/piratesoftware'>Twitch</InlineLink> is currently the best live streaming site for the majority of content types online. It&apos;s got great monetization options but the splits are also rather horrible at the same time. They don&apos;t allow adult content but a lot of creators skirt that line anyway. Just follow the TOS and you&apos;ll be just fine.
       </ParagraphImage>
       <Paragraph>
         Subs <br />
