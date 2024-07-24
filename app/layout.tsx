@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "Wanna make a game, but don't know where to start or you are already a developer and need a free resources? On develop.games you can find information from Jason Thor Hall's +20 years of experience",
   openGraph: {
     title: {
-      template: 'Develop games | %s',
+      template: '%s | Develop games',
       default: 'Develop games'
     },
     url: 'https://develop.games',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       {
         url: '/link.jpg',
         width: 1200,
-        height: 630
+        height: 630,
       }
     ],
     type: 'website',
