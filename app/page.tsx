@@ -34,7 +34,7 @@ export default function Home() {
         </section>
         <div className="h-32 sm:h-28 md:h-20 lg:h-20"></div>
         <div className="w-full mt-0 lg:mt-16 mx-[12.5rem] mb-[4rem] flex items-center justify-center flex-col">
-          <p>Live develpmnet</p>
+          <p>Live developmnet</p>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 mt-1 animate-bounce">
             <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
           </svg>
