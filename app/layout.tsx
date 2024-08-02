@@ -15,14 +15,14 @@ export const metadata: Metadata = {
       template: '%s | Develop games',
       default: 'Develop games'
     },
-    url: 'https://develop.games',
+    url: 'https://developgames.vercel.app/',
     description: "Wanna make a game, but don't know where to start or you are already a developer and need a free resources? On develop.games you can find information from Jason Thor Hall's +20 years of experience",
     siteName: 'Develop games',
     images: [
       {
         url: '/link.jpg',
         width: 1200,
-        height: 630,
+        height: 630
       }
     ],
     type: 'website',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     creator: '@CodedByCoffeCup',
     images: ['link.jpg'], // Must be an absolute URL
   },
-  metadataBase: new URL('https://develop.games'),
+  metadataBase: new URL('https://developgames.vercel.app/'),
 };
 
 export default function RootLayout({
