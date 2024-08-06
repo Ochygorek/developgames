@@ -8,7 +8,7 @@ function QuickNavigation() {
 
   return (
     <>
-      <div className='hidden lg:flex items-start justify-start flex-col text-xs font-light text-aa sticky top-[2rem] overflow-auto min-w-[164px]'>
+      <div className='hidden lg:flex items-start justify-start flex-col text-xs font-light text-aa sticky top-[2rem] overflow-y-auto min-w-[164px]'>
         <Link href={'/game-dev'} className='mb-[0.313rem] text-base text-ea font-normal'>Quick Navigation</Link>
         <Link href={'/game-dev/live-stream'} className='font-normal text-dd mt-[0.313rem] flex items-start justify-start gap-2 w-full hover:text-white duration-150'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4">
@@ -138,7 +138,7 @@ function QuickNavigation() {
         }
       </button>
       {open &&
-          <div className='flex lg:hidden items-start justify-start flex-col text-xs font-light text-aa sticky top-8 overflow-auto w-full bg-[#212121] h-screen z-[100]'>
+          <div className='flex lg:hidden items-start justify-start flex-col text-xs font-light text-aa sticky top-8 overflow-auto w-full bg-[#212121] overflow-y-auto h-screen z-[100] pb-4'>
             <Link onClick={() => setOpen(false)} href={'/game-dev'} className='mb-[0.313rem] mt-4 text-base text-ea font-normal'>Quick Navigation</Link>
             <Link onClick={() => setOpen(false)} href={'/game-dev/live-stream'} className='font-normal text-dd mt-[0.313rem] flex items-start justify-start gap-2 w-full hover:text-white duration-150'>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4">
